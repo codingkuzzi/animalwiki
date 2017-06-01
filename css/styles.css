@@ -1,0 +1,35 @@
+.jumbotron {
+  text-align: center;
+}
+
+.navbar-left {
+  position: fixed;
+}
+
+#logo {
+  width: 100%;
+  height: 150%;
+  margin-left: 15px;
+  padding: 5px;
+}
+
+#maincontent {
+  margin-left: 12px;
+  font-size: 175%;
+}
+
+#possum-showing img {
+  height: 80%;
+  width: 75%;
+}
+#fruitbat-showing {
+  display: none;
+}
+
+#possum-showing {
+  display: none;
+}
+
+#trashpanda-showing {
+  display: none;
+}

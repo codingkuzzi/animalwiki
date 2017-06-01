@@ -8,7 +8,85 @@
     <script src="js/scripts.js"></script>
     <title></title>
   </head>
-    <body>
-      
-    </body>
+  <body>
+    <div class="container">
+      <h1 class="jumbotron">Animal Wiki</h1>
+      <div class="row">
+        <div class="panel panel-primary col-md-2">
+          <img  id="logo" src="img/1.jpg" alt="fake wiki" />
+          <div class="panel-body">
+            <p>Fun Animal Wiki</p>
+            <p>
+              Section 1.10.33 of "de Finibus Bonorum et Malorum", written by Cicero in 45 BC
+
+            "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo
+            </p>
+          </div>
+        </div>
+        <div class="container col-md-10">
+          <div>
+            <ul class="nav nav nav-tabs navbar-nav navbar-right">
+              <li role="presentation" class="active"><a href="#">Home</a></li>
+              <li role="presentation" class="active"><a href="#">Talk</a></li>
+              <li role="presentation" class="active"><a href="#">Read</a></li>
+              <li role="presentation" class="active"><a href="#">View Source</a></li>
+              <li role="presentation" class="active"><a href="#">View History</a></li>
+              <li role="presentation" class="active"><a href="#"><input type="text" name="search" placeholder="Search.."></a></li>
+            </ul>
+          </div>
+          <div class="container" id="maincontent">
+            <div id="splashanimal">
+              <img src="img/splash.jpg" alt="happy corgi" />
+            </div>
+            <div id="fruitbat-showing">
+              <img src="img/fruitbat.jpeg" alt="" />
+              <h3>The fruitbat</h3>
+              <p>
+                A very cool bat
+              </p>
+            </div>
+            <div id="possum-showing">
+              <img src="img/possum.jpg" alt="An image of a possum."/>
+              <h3>A very groovy possum</h3>
+              <p>
+                This possum likes radishes
+              </p>
+            </div>
+            <div id="trashpanda-showing">
+              <img src="img/raccoon.jpg" alt="An image of a raccoon."/>
+              <h3>A rocket raccoon</h3>
+              <p>
+                This trash panda is mischievous
+              </p>
+            </div>
+          </div>
+            <h2>Welcome!</h2>
+            <h5>Please choose an animal :D</h5>
+            <form id="survey">
+                <div class="radio" id="fruitbatbutton">
+                <label>
+                  <input  type="radio" name="animal" value="fruitbat">
+                  Fruit bat
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="animal" value="possum">
+                  Possum
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="animal" value="trashpanda">
+                  Trash Panda
+                </label>
+              </div>
+              <button type="submit" class="btn btn-warning">Submit</button>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
